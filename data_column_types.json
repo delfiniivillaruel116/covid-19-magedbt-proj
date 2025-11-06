@@ -1,0 +1,1 @@
+{"Province/State": "str", "Country/Region": "str", "Last Update": "str", "Confirmed": "float64", "Deaths": "float64", "Recovered": "float64", "Suspected": "float64", "ConfnSusp": "float64", "Notes": "str"}
