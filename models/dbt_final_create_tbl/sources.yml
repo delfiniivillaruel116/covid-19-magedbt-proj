@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: main
+    database: covid19       # DuckDB database name
+    schema: main            # Schema name
+    tables:
+      - name: dbt_source_ingest_raw

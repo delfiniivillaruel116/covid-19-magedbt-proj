@@ -1,0 +1,21 @@
+sources:
+- description: Dataframes Mage upstream blocks
+  loader: mage
+  name: mage_dbt_ingest
+  schema: main
+  tables:
+  - description: Dataframe for block `raw_file_ingest` of the `covid_ingestion_pipeline`
+      mage pipeline.
+    identifier: mage_covid_ingestion_pipeline_raw_file_ingest
+    meta:
+      block_uuid: raw_file_ingest
+      pipeline_uuid: covid_ingestion_pipeline
+    name: covid_ingestion_pipeline_raw_file_ingest
+  - description: Dataframe for block `raw_ingest_tbl` of the `covid_ingestion_pipeline`
+      mage pipeline.
+    identifier: mage_covid_ingestion_pipeline_raw_ingest_tbl
+    meta:
+      block_uuid: raw_ingest_tbl
+      pipeline_uuid: covid_ingestion_pipeline
+    name: covid_ingestion_pipeline_raw_ingest_tbl
+version: 2

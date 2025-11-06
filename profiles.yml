@@ -1,0 +1,8 @@
+dbt_ingest:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/src/covid19-mini-proj/dbt/dbt_ingest/covid19.duckdb
+      schema: main
+      threads: 1
